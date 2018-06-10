@@ -6,6 +6,7 @@ def turn(board)
     turn(board)
   else
     move(board,query,value = "X")
+  end
 end
 
 
