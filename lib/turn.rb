@@ -5,7 +5,7 @@ def turn(board)
   if position_taken?(board,number) == false
     board[number] = "X"
   else
-  puts "Please enter 1-9:"
+  turn(board)
 end
 
 
