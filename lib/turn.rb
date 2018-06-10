@@ -6,6 +6,7 @@ def turn(board)
     puts "Please enter 1-9"
   else
     move(board,query,value = "X")
+    display_board(board)
   end
 end
 
